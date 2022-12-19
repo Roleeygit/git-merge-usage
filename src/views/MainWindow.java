@@ -29,6 +29,7 @@ public class MainWindow  extends JFrame
 
     private void setWindow()
     {
+        this.setTitle("Tombsug - Juhász Roland");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setSize(400, 300);
         this.setVisible(true);
