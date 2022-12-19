@@ -4,6 +4,9 @@ import javax.swing.JFrame;
 
 public class MainWindow  extends JFrame
 {
+    InputPanel sidePanel;
+    InputPanel alphaPanel;
+
     public MainWindow()
     {
         this.setComponent();
@@ -14,16 +17,20 @@ public class MainWindow  extends JFrame
 
     private void setComponent()
     {
-
+        this.sidePanel = new InputPanel();
+        this.alphaPanel = new InputPanel();
     }
 
     private void addComponent()
     {
-
+        this.add(this.sidePanel);
+        this.add(this.alphaPanel);
     }
 
     private void addComponentToWindow()
     {
+        this.add(this.sidePanel);
+        this.add(this.alphaPanel);
 
     }
 
