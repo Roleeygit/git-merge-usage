@@ -1,7 +1,7 @@
-import views.MainWindow;
+import controllers.MainController;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        new MainWindow();
+        new MainController();
     }
 }
